@@ -10,7 +10,10 @@ const followRedirects = require('follow-redirects');
 const zlib = require('zlib');
 const stream = require('stream');
 const EventEmitter = require('events');
+const fs = require('fs');
 
+var ttt = fs.readFileSync;
+console.log('gg')
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 const FormData__default = /*#__PURE__*/_interopDefaultLegacy(FormData$1);
