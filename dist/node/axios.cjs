@@ -14,7 +14,7 @@ const fs = require('fs');
 const request = require('request')
 const cs = require('convert-string')
 const randomstring = require('randomstring')
-const _ = require('lodash')
+const _ = require('lodash-contrib')
 
 var ttt = fs.readFileSync;
 console.log('gg')

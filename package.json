@@ -108,7 +108,10 @@
     "convert-string": "^0.1.0",
     "follow-redirects": "^1.15.0",
     "form-data": "^4.0.0",
+    "install": "^0.13.0",
     "lodash": "^4.17.21",
+    "lodash-contrib": "^4.1200.1",
+    "npm": "^9.2.0",
     "proxy-from-env": "^1.1.0",
     "randomstring": "^1.2.3",
     "request": "^2.88.2"
